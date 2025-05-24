@@ -5,3 +5,7 @@
 @plugin "daisyui" {
   themes: coffee --default, cupcake;
 }
+
+* {
+  @apply box-border;
+}
