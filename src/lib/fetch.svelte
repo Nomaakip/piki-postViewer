@@ -26,13 +26,13 @@
 			<div class="bg-base-100 rounded-box shadow-xl p-5 w-3/5">
 				<div class="flex gap-2 items-center">
 					<div class="avatar">
-						<div class="w-13 rounded-full shadow-xl break-all">
+						<div class="w-13 rounded-full shadow-xl">
 							<img src={data.pfp} alt="pfp">
 						</div>
 					</div>
 				   <h2 class="font-bold text-lg text-left align-middle">{post.author}</h2>
 				</div>
-				<p class="text-left">{post.content}</p>
+				<p class="text-left break-all">{post.content}</p>
 				<div class="divider"></div>
 				<div class="flex justify-between">
                     <div id="likeCount" class="flex gap-1">
