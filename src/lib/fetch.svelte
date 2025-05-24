@@ -23,7 +23,7 @@
 
 	{#if data}
 		{#each data.posts as post}
-			<div class="bg-base-100 rounded-box shadow-xl p-5 w-3/5">
+			<div class="bg-base-100 rounded-box shadow-xl p-5 w-full max-w-2xl">
 				<div class="flex gap-2 items-center">
 					<div class="avatar">
 						<div class="w-13 rounded-full shadow-xl">
